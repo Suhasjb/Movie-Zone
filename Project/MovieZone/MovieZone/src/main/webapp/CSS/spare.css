@@ -1,0 +1,41 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the movie container */
+.movie-container {
+    display: inline-block;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+/* Style the movie poster */
+.movie-info img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the movie details */
+.movie-info .details {
+    padding: 10px;
+}
+
+/* Style the buy button */
+.buy-button {
+    display: block;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}

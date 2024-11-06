@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/contact_us.css">
+    <script src="https://kit.fontawesome.com/f33907c5c2.js" crossorigin="anonymous"></script>
+    <title>Contact Us - MovieZone</title>
+</head>
+<body>
+    <header>
+		<div class="align">
+		<div class="head"><h1>Contact Us</h1></div>
+        <div class="user-profile">
+		   <img src="../images/user_logo.jpg" alt="User Profile">
+            <p>Welcome</p>
+        </div>
+		</div> 
+    </header>
+    <main>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p><i class="fa-solid fa-location-dot"></i><strong>Address:</strong> Suchitra Complex Small Town, Yelahanka</p>
+            <p><i class="fa-solid fa-phone"></i><strong>Phone:</strong> +91 8625943463</p>
+            <p><i class="fa-solid fa-envelope"></i><strong>Email:</strong> moviezone@gmai.com</p>
+            
+            <h2>Follow Us</h2>
+            <a href="https:www.facebook.com"><i class="fab fa-facebook fa-4x b-color"></i></a>
+            <a href="https:www.twitter.com"><i class="fab fa-twitter fa-4x b-color"></i></a>
+            <a href="https:www.instagram.com"><i class="fab fa-instagram fa-4x r-color"></i></a>
+        </section>
+        <section class="feedback-form">
+            <h2>Send Feedback</h2>
+            <form action="../JSP/contact_us.jsp" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 MovieZone</p>
+    </footer>
+</body>
+</html>

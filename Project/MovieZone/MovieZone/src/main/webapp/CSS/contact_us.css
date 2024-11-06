@@ -1,0 +1,126 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+main {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.contact-info,
+.feedback-form {
+    flex: 1;
+    padding: 20px;
+}
+
+.contact-info h2,
+.feedback-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+}
+
+.feedback-form form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.feedback-form form input[type="text"],
+.feedback-form form input[type="email"],
+.feedback-form form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-info i{
+	margin-right: 10px;
+}
+
+.feedback-form form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.b-color{
+	color: dodgerblue;
+}
+
+.r-color{
+	color: mediumvioletred;
+}
+
+.align{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.head{
+	display: flex;
+	justify-content: center;
+}
+
+.user-profile {
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            margin-top: auto;
+        }
+        .user-profile img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .user-profile p {
+            margin: 0;
+            font-size: 16px;
+        }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer i{
+	margin: 70px;
+}
